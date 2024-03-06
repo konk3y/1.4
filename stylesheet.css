@@ -17,14 +17,13 @@ body{
     box-shadow: 40px 0px 40px 0px rgba(0, 0, 0, 0.2);
     position: fixed;
     left: 0;
-    
     overflow-y: hidden;
 
 }
 
 .nav__content {
-    overflow-y: auto; /* Добавить вертикальный скролл только при необходимости */
-    height: 100%; /* Отмечаем контентную область */
+    overflow-y: auto;
+    height: 1024px; 
 }
 
 .header__container{
