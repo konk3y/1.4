@@ -50,7 +50,7 @@ body{
     order: 3;
 }
 .nav__main__container{
-    height: 430px;
+    height: 410px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -126,4 +126,11 @@ li{
     font-family: var(--fontfamily-ttmed);
     color: var(--color-black);
     text-decoration: none;
+}
+
+@media (min-width: 1028px) {
+    .nav__footer__container{
+        padding-top: 385px;
+    }
+
 }
