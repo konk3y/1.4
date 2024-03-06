@@ -112,3 +112,19 @@ body{
     color: #1B1C21;
     text-decoration: none;
 }
+
+@media screen and (max-height: 768px) {
+    .footer__container {
+        padding-top: 40px;
+    }
+  }
+  @media screen and (min-height: 768px) {
+    .footer__container {
+        padding-top: 140px;
+    }
+  }
+  @media screen and (min-height: 1024px) {
+    .footer__container {
+        padding-top: 240px;
+    }
+  }
